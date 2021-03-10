@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.icon {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.todos__list {
+  list-style: none;
+}
+.todos__add {
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.todo {
+  margin: 15px 0;
+}
+.todo__input,
+.todo__input:disabled {
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+}
+.todo__input--border {
+  border: 1px solid orange;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
